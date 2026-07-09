@@ -1,0 +1,22 @@
+{
+  "libri": [
+    {
+      "file": "il-cuore-di-vetro.json",
+      "titolo": "Il Cuore di Vetro",
+      "autore": "Inkbound",
+      "genere": "Fantasy / Mistero — con statistiche, oggetti, prove e combattimento"
+    },
+    {
+      "file": "il-bivio-nel-bosco.json",
+      "titolo": "Il Bivio nel Bosco",
+      "autore": "Inkbound",
+      "genere": "Racconto puro — senza statistiche né oggetti"
+    },
+    {
+      "file": "il-nome-sotto-la-luna.json",
+      "titolo": "Il Nome sotto la Luna",
+      "autore": "Inkbound",
+      "genere": "La storia di Turandot, nei panni di Liu"
+    }
+  ]
+}

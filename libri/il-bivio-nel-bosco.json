@@ -1,0 +1,70 @@
+{
+  "titolo": "Il Bivio nel Bosco",
+  "sottotitolo": "Un racconto a bivi, senza dadi né oggetti",
+  "autore": "Inkbound",
+  "usa_statistiche": false,
+  "usa_inventario": false,
+  "statistiche_iniziali": {},
+  "inventario_iniziale": [],
+  "sezione_iniziale": "1",
+  "sezioni": {
+    "1": {
+      "testo": [
+        "Marco si ferma davanti a un bivio, nel cuore di un bosco che l'autunno ha vestito di rame. A sinistra sente il mormorio di un ruscello nascosto tra le felci; a destra, solo un silenzio così fitto da sembrare abitato."
+      ],
+      "scelte": [
+        { "testo": "Segue il ruscello, verso sinistra", "vai": "2" },
+        { "testo": "Si addentra nel silenzio, verso destra", "vai": "3" }
+      ]
+    },
+    "2": {
+      "testo": [
+        "Il ruscello lo conduce fino a un vecchio mulino, le pale immobili da decenni, ricoperte di muschio verde scuro. La porta è socchiusa, e da dentro proviene un debole scricchiolio, come di legno che si assesta."
+      ],
+      "scelte": [
+        { "testo": "Entra nel mulino", "vai": "4" },
+        { "testo": "Preferisce proseguire lungo il ruscello, oltre il mulino", "vai": "5" }
+      ]
+    },
+    "3": {
+      "testo": [
+        "Il silenzio si fa via via più denso, finché Marco non si accorge di un dettaglio che gli gela il passo: nessun uccello canta, nessuna foglia si muove. È come se il bosco, in quel punto, trattenesse il fiato insieme a lui.",
+        "Davanti a lui, tra due tronchi contorti, si apre un piccolo spiazzo circolare, perfettamente erboso, che non sembra appartenere al resto del sottobosco."
+      ],
+      "scelte": [
+        { "testo": "Entra nello spiazzo", "vai": "6" },
+        { "testo": "Decide di girargli intorno, senza attraversarlo", "vai": "7" }
+      ]
+    },
+    "4": {
+      "testo": [
+        "Dentro, il mulino custodisce solo polvere, ragnatele e un vecchio mantice appeso a una trave, che dondola piano benché non ci sia vento. Marco resta a lungo, in ascolto, prima di capire che quel luogo non ha più nulla da dirgli — solo da mostrargli quanto tempo può passare, indisturbato, su cose dimenticate."
+      ],
+      "finale": true,
+      "esito": "neutro"
+    },
+    "5": {
+      "testo": [
+        "Oltre il mulino, il ruscello si allarga in una piccola radura dove la luce del tardo pomeriggio cade obliqua tra i rami. Marco si siede su una pietra piatta, ancora tiepida di sole, e per la prima volta da quando è entrato nel bosco si sente, semplicemente, a suo agio.",
+        "Non tutte le storie hanno bisogno di un tesoro alla fine: a volte basta un posto dove fermarsi."
+      ],
+      "finale": true,
+      "esito": "neutro"
+    },
+    "6": {
+      "testo": [
+        "Al centro dello spiazzo, l'erba forma un cerchio quasi perfetto, e Marco vi cammina dentro senza sapere bene perché. Il bosco, intorno, resta immobile a guardare. Quando esce dall'altro lato, qualcosa in lui è cambiato: forse solo la stanchezza del cammino, forse qualcos'altro che non saprà mai nominare."
+      ],
+      "finale": true,
+      "esito": "segreto"
+    },
+    "7": {
+      "testo": [
+        "Marco gira al largo, tenendo lo spiazzo sempre nel campo visivo, come si fa con un animale che potrebbe svegliarsi. Solo quando il bosco torna a fare rumore — un uccello, un ramo scricchiolante — si accorge di aver trattenuto il respiro per tutto il tempo.",
+        "Non saprà mai cosa custodiva davvero quello spiazzo silenzioso. Alcune porte, decide, è meglio lasciarle chiuse."
+      ],
+      "finale": true,
+      "esito": "neutro"
+    }
+  }
+}

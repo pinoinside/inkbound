@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Inkbound — motore per librogame</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=EB+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="masthead" id="masthead">
+  <div class="eyebrow">A vintage engine for interactive gamebooks</div>
+  <div class="engine-title" id="engine-title">Inkbound</div>
+  <div class="engine-tagline" id="engine-tagline">Ogni pagina è un bivio, ogni bivio una storia</div>
+
+  <div class="book-header" id="book-header" hidden>
+    <div class="eyebrow" id="book-eyebrow">Inkbound presenta</div>
+    <h1 id="book-title"></h1>
+    <div class="sub" id="book-sub"></div>
+  </div>
+
+  <svg class="divider-flourish" viewBox="0 0 220 30" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0,15 C40,0 60,30 100,15 C140,0 160,30 220,15" fill="none" stroke="#D9BC7E" stroke-width="1.4"/>
+    <circle cx="110" cy="15" r="4" fill="#D9BC7E"/>
+    <circle cx="60" cy="12" r="2" fill="#D9BC7E"/>
+    <circle cx="160" cy="12" r="2" fill="#D9BC7E"/>
+  </svg>
+</div>
+
+<button class="sidebar-toggle" id="toggleSheet">☙ Scheda del personaggio ❧</button>
+
+<div class="stage">
+  <!-- SCHEDA PERSONAGGIO -->
+  <aside class="sheet" id="sheet">
+    <h2 id="sheet-title">Taccuino del Viaggiatore</h2>
+
+    <div class="sheet-section" id="stats-section">
+      <div id="stats-container"></div>
+    </div>
+
+    <div class="sheet-section" id="inventory-section">
+      <h3>Oggetti raccolti</h3>
+      <ul class="inventory-list" id="inventory-container"></ul>
+    </div>
+
+    <div class="sheet-actions">
+      <button class="btn-ledger" id="btn-libreria" hidden>Torna alla libreria</button>
+      <button class="btn-ledger" id="btn-esporta">Esporta partita</button>
+      <button class="btn-ledger" id="btn-importa">Importa partita</button>
+      <input type="file" id="file-importa" accept="application/json">
+      <button class="btn-ledger" id="btn-carica-libro">Carica un libro (JSON)</button>
+      <input type="file" id="file-carica" accept="application/json">
+      <button class="btn-ledger" id="btn-guida">Come scrivo un libro?</button>
+      <button class="btn-ledger" id="btn-ricomincia">Ricomincia da capo</button>
+    </div>
+  </aside>
+
+  <!-- PAGINA DEL LIBRO -->
+  <div class="page-wrap">
+    <svg class="corner tl" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+      <path d="M4,96 C4,60 10,30 35,20 C50,14 52,0 46,-4" fill="none" stroke="#B08D57" stroke-width="2.4"/>
+      <path d="M4,96 C4,60 10,30 35,20" fill="none" stroke="#6E2C3A" stroke-width="1" opacity="0.6"/>
+      <circle cx="46" cy="4" r="5" fill="#B08D57"/>
+      <path d="M35,20 C28,26 20,24 16,16" fill="none" stroke="#2E5240" stroke-width="2"/>
+      <path d="M20,55 C12,58 8,50 12,42" fill="none" stroke="#2E5240" stroke-width="2"/>
+    </svg>
+    <svg class="corner tr" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+      <path d="M4,96 C4,60 10,30 35,20 C50,14 52,0 46,-4" fill="none" stroke="#B08D57" stroke-width="2.4"/>
+      <path d="M4,96 C4,60 10,30 35,20" fill="none" stroke="#6E2C3A" stroke-width="1" opacity="0.6"/>
+      <circle cx="46" cy="4" r="5" fill="#B08D57"/>
+      <path d="M35,20 C28,26 20,24 16,16" fill="none" stroke="#2E5240" stroke-width="2"/>
+      <path d="M20,55 C12,58 8,50 12,42" fill="none" stroke="#2E5240" stroke-width="2"/>
+    </svg>
+    <svg class="corner bl" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+      <path d="M4,96 C4,60 10,30 35,20 C50,14 52,0 46,-4" fill="none" stroke="#B08D57" stroke-width="2.4"/>
+      <path d="M4,96 C4,60 10,30 35,20" fill="none" stroke="#6E2C3A" stroke-width="1" opacity="0.6"/>
+      <circle cx="46" cy="4" r="5" fill="#B08D57"/>
+      <path d="M35,20 C28,26 20,24 16,16" fill="none" stroke="#2E5240" stroke-width="2"/>
+      <path d="M20,55 C12,58 8,50 12,42" fill="none" stroke="#2E5240" stroke-width="2"/>
+    </svg>
+    <svg class="corner br" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+      <path d="M4,96 C4,60 10,30 35,20 C50,14 52,0 46,-4" fill="none" stroke="#B08D57" stroke-width="2.4"/>
+      <path d="M4,96 C4,60 10,30 35,20" fill="none" stroke="#6E2C3A" stroke-width="1" opacity="0.6"/>
+      <circle cx="46" cy="4" r="5" fill="#B08D57"/>
+      <path d="M35,20 C28,26 20,24 16,16" fill="none" stroke="#2E5240" stroke-width="2"/>
+      <path d="M20,55 C12,58 8,50 12,42" fill="none" stroke="#2E5240" stroke-width="2"/>
+    </svg>
+
+    <div class="fallback-note" id="fallback-note" hidden></div>
+
+    <div class="page" id="page">
+      <!-- generato via JS -->
+    </div>
+  </div>
+</div>
+
+<div class="footer-note">
+  Inkbound — motore per librogame in formato JSON. <button id="btn-guida-2">Guida al formato</button>
+</div>
+
+<!-- MODALE GUIDA -->
+<div class="modal-overlay" id="modal">
+  <div class="modal-box">
+    <button class="modal-close" id="modal-close">Chiudi ✕</button>
+    <h2>Come si scrive un librogame</h2>
+    <p>Ogni libro è un file <code>.json</code> nella cartella <code>libri/</code>, elencato in <code>libri/manifest.json</code>. Puoi anche caricarne uno a mano con "Carica un libro".</p>
+
+    <h3>manifest.json</h3>
+    <pre>{
+  "libri": [
+    { "file": "il-cuore-di-vetro.json", "titolo": "...", "autore": "...", "genere": "..." }
+  ]
+}</pre>
+
+    <h3>Struttura di un libro</h3>
+    <pre>{
+  "titolo": "Nome del libro",
+  "sottotitolo": "...",
+  "autore": "...",
+  "usa_statistiche": true,
+  "usa_inventario": true,
+  "statistiche_iniziali": { "Ingegno": 8, "Coraggio": 8, "Vita": 20 },
+  "inventario_iniziale": ["Oggetto 1"],
+  "sezione_iniziale": "1",
+  "sezioni": { "1": { ... }, "2": { ... } }
+}</pre>
+    <p><code>usa_statistiche</code> e <code>usa_inventario</code> sono opzionali (default: true). Se un libro è puramente narrativo, impostane uno o entrambi a <code>false</code>: la relativa sezione della scheda personaggio sparirà, e se sono entrambi false l'intera scheda si nasconde.</p>
+
+    <h3>Una sezione</h3>
+    <pre>"1": {
+  "testo": ["Primo paragrafo.", "Secondo paragrafo."],
+  "illustrazione": "https://...jpg (opzionale)",
+  "effetti": [
+    { "tipo": "aggiungi_oggetto", "oggetto": "Chiave" },
+    { "tipo": "modifica_stat", "stat": "Vita", "valore": -2 }
+  ],
+  "prova": {
+    "descrizione": "Prova di Ingegno",
+    "stat": "Ingegno", "dadi": 2, "soglia": 9,
+    "successo": "5", "fallimento": "6"
+  },
+  "combattimento": {
+    "nome": "Guardiano", "abilita": 7, "vita": 10,
+    "vittoria": "8", "sconfitta": "fine_sconfitta"
+  },
+  "scelte": [
+    { "testo": "Vai a nord", "vai": "2" },
+    { "testo": "Usa la chiave", "richiede_oggetto": "Chiave", "vai": "3" },
+    { "testo": "Sfida la guardia", "condizione": {"stat":"Coraggio","op":">=","valore":6}, "vai": "4" }
+  ],
+  "finale": false
+}</pre>
+    <p>Per un finale: <code>"finale": true, "esito": "vittoria" | "sconfitta" | "segreto" | "neutro"</code>. Operatori di condizione ammessi: <code>&gt;, &gt;=, &lt;, &lt;=, ==, !=</code>.</p>
+
+    <h3>Apertura del sito</h3>
+    <p>Se apri <code>index.html</code> con un server locale (es. <code>python3 -m http.server</code>), il motore legge automaticamente <code>libri/manifest.json</code> e mostra la libreria dei libri disponibili. Se apri il file con un doppio click, il browser blocca questo tipo di lettura: il motore avvia comunque un libro dimostrativo incorporato, e puoi caricare qualunque libro a mano con "Carica un libro".</p>
+  </div>
+</div>
+
+<script src="js/engine.js"></script>
+</body>
+</html>

@@ -1,0 +1,135 @@
+{
+  "titolo": "Il Cuore di Vetro",
+  "sottotitolo": "Un'avventura alla Villa Aurea",
+  "autore": "Inkbound",
+  "usa_statistiche": true,
+  "usa_inventario": true,
+  "statistiche_iniziali": { "Ingegno": 7, "Coraggio": 7, "Vita": 20 },
+  "inventario_iniziale": [],
+  "sezione_iniziale": "1",
+  "sezioni": {
+    "1": {
+      "testo": [
+        "Una busta color avorio, sigillata con ceralacca a forma di rosa, vi ha condotto fin qui: alla Villa Aurea, dimora di vetro e ferro battuto sospesa sul limite della città, dove ogni finestra sembra respirare come la corolla di un fiore notturno.",
+        "La lettera non porta firma, solo un invito: «Venite a vedere ciò che nessuno crede più possibile». Davanti a voi due strade: il portone principale, tra vetrate istoriate che ardono di luce dorata, oppure un sentiero laterale che scompare tra le foglie di un giardino d'inverno."
+      ],
+      "scelte": [
+        { "testo": "Entrate dal portone principale", "vai": "2" },
+        { "testo": "Seguite il sentiero verso il giardino d'inverno", "vai": "3" }
+      ]
+    },
+    "2": {
+      "testo": [
+        "Il salone vi accoglie con un tepore quasi vegetale: colonne di ferro si arrampicano verso l'alto per sbocciare in capitelli a forma di ninfea. Al centro, la Contessa Serpentine vi osserva da dietro un ventaglio di piume di pavone.",
+        "«Un altro cercatore» sussurra, con un sorriso che non promette nulla di buono né di innocente. «Ditemi, siete venuti per la Torre?»"
+      ],
+      "scelte": [
+        { "testo": "Chiedetele della Torre di Vetro", "vai": "4" },
+        { "testo": "Ignoratela e salite la scala a chiocciola", "vai": "5" },
+        { "testo": "Sfidatela apertamente a lasciarvi passare", "condizione": { "stat": "Coraggio", "op": ">=", "valore": 9 }, "vai": "5" }
+      ]
+    },
+    "3": {
+      "testo": [
+        "Tra felci enormi e orchidee color della notte, qualcosa scintilla a terra: una spilla di ottone a forma di rosa, dimenticata forse da un'altra ospite o lasciata lì di proposito.",
+        "La raccogliete: è fredda, ma il suo stelo sembra scaldarsi al contatto con la pelle, quasi riconoscesse una mano amica."
+      ],
+      "effetti": [ { "tipo": "aggiungi_oggetto", "oggetto": "Spilla a forma di rosa" } ],
+      "scelte": [
+        { "testo": "Tornate verso l'ingresso e raggiungete il salone", "vai": "2" },
+        { "testo": "Proseguite verso una porta di ferro battuto nel muro di vetro", "vai": "5" }
+      ]
+    },
+    "4": {
+      "testo": [
+        "«La Torre» dice la Contessa, socchiudendo gli occhi «è più vecchia della Villa stessa. Dicono custodisca un cuore che batte di luce propria. Molti sono saliti. Pochi sono scesi con qualcosa da raccontare.»",
+        "Vi indica, con un cenno appena percettibile, una scala che si arrampica oltre una porta di ferro battuto."
+      ],
+      "scelte": [ { "testo": "Ringraziatela e dirigetevi verso la Torre", "vai": "5" } ]
+    },
+    "5": {
+      "testo": [
+        "Ai piedi della Torre di Vetro, un cancello a spirale di ferro battuto sbarra la strada: al centro, un incavo a forma di rosa attende qualcosa che possiate posarvi dentro.",
+        "Senza l'oggetto giusto, il meccanismo resta muto come una conchiglia vuota."
+      ],
+      "scelte": [
+        { "testo": "Posate la spilla a forma di rosa nell'incavo", "richiede_oggetto": "Spilla a forma di rosa", "vai": "6" },
+        { "testo": "Cercate un'altra via, tra le ombre del giardino", "vai": "3" },
+        { "testo": "Provate a convincere un maggiordomo d'automa nei pressi", "vai": "7" }
+      ]
+    },
+    "6": {
+      "testo": [
+        "Il cancello si apre con un sospiro di ingranaggi, come se la Torre stessa vi avesse riconosciuti. All'interno, un ascensore di ferro e vetro pulsa di una luce ambrata.",
+        "Sul pavimento, una chiave di ottone dimenticata riflette la luce in mille schegge dorate."
+      ],
+      "effetti": [ { "tipo": "aggiungi_oggetto", "oggetto": "Chiave di ottone" } ],
+      "scelte": [ { "testo": "Salite con l'ascensore verso la sommità della Torre", "vai": "8" } ]
+    },
+    "7": {
+      "testo": [
+        "Un maggiordomo meccanico, tutto ottone e occhi di vetro smerigliato, vi blocca il passo con un inchino perfetto e irremovibile. «Il passaggio» recita con voce metallica «è concesso solo a chi sa rispondere con ingegno.»"
+      ],
+      "prova": {
+        "descrizione": "Prova di Ingegno — il maggiordomo pone un enigma sulla natura della luce",
+        "stat": "Ingegno", "dadi": 2, "soglia": 9,
+        "successo": "6", "fallimento": "2"
+      }
+    },
+    "8": {
+      "testo": [
+        "In cima alla Torre, una serra di vetro custodisce un giardino impossibile: fiori di cristallo che pulsano come cuori, e al centro, sospeso in una struttura di petali metallici, il Guardiano di Cristallo si anima al vostro passo, il volto una maschera liscia e senza espressione."
+      ],
+      "combattimento": { "nome": "Guardiano di Cristallo", "abilita": 7, "vita": 9, "vittoria": "9", "sconfitta": "fine_sconfitta" },
+      "scelte": [ { "testo": "Usate la chiave di ottone per disattivare il meccanismo del Guardiano", "richiede_oggetto": "Chiave di ottone", "vai": "10" } ]
+    },
+    "9": {
+      "testo": [ "Il Guardiano si piega su se stesso con un ultimo bagliore, i petali metallici che lo componevano si aprono come una corolla sconfitta. Al centro della serra, il Cuore di Vetro pulsa, sospeso in un fascio di luce dorata." ],
+      "scelte": [
+        { "testo": "Afferrate il Cuore e correte verso l'uscita", "vai": "fine_vittoria" },
+        { "testo": "Avvicinatevi per ascoltarne il battito, prima di prenderlo", "vai": "11" }
+      ]
+    },
+    "10": {
+      "testo": [
+        "La chiave scivola in una fessura nascosta tra i petali metallici: il Guardiano si immobilizza in un ultimo inchino silenzioso, come sollevato di essere stato liberato da un compito troppo lungo.",
+        "Il Cuore di Vetro, ora scoperto, pulsa piano nella serra silenziosa."
+      ],
+      "scelte": [
+        { "testo": "Afferrate il Cuore e correte verso l'uscita", "vai": "fine_vittoria" },
+        { "testo": "Avvicinatevi per ascoltarne il battito, prima di prenderlo", "vai": "11" }
+      ]
+    },
+    "11": {
+      "testo": [
+        "Appoggiando la mano al Cuore, non sentite vetro, ma qualcosa che assomiglia a un respiro. Una voce, non udita ma sentita nelle ossa, vi parla: «Ogni tanto qualcuno arriva fin qui. Alcuni prendono e fuggono. Ad altri, offro di restare, e di custodire ciò che ho custodito io, per un tempo che non si misura in anni.»",
+        "Il giardino di cristallo attende, sospeso, la vostra risposta."
+      ],
+      "scelte": [
+        { "testo": "Accettate di diventare il nuovo Guardiano", "vai": "fine_segreto" },
+        { "testo": "Rifiutate, e fuggite con il Cuore stretto al petto", "vai": "fine_vittoria" }
+      ]
+    },
+    "fine_vittoria": {
+      "testo": [
+        "Scendete dalla Torre con il Cuore di Vetro che scalda il palmo come un piccolo sole. La Villa Aurea, alle vostre spalle, sembra spegnersi di un poco, come una candela che ha ceduto la sua fiamma a un'altra.",
+        "Nei mesi a venire, si racconterà di voi come di chi è salito su una torre impossibile ed è tornato con qualcosa da raccontare — cosa rara, alla Villa Aurea."
+      ],
+      "finale": true, "esito": "vittoria"
+    },
+    "fine_sconfitta": {
+      "testo": [
+        "Il Guardiano di Cristallo vi stringe in un abbraccio di petali metallici che non concede scampo. L'ultima cosa che vedete è la vostra immagine moltiplicata all'infinito nelle facce di vetro che compongono il suo volto, mentre diventate voi stessi un ornamento della serra.",
+        "La Torre di Vetro, ancora una volta, ha trovato un nuovo fiore da custodire."
+      ],
+      "finale": true, "esito": "sconfitta"
+    },
+    "fine_segreto": {
+      "testo": [
+        "Restate. Il vostro corpo si fa leggero, poi luminoso, poi diventa parte del giardino di cristallo, un petalo tra i petali, un battito tra i battiti.",
+        "Da qualche parte, tra molti anni, un'altra busta color avorio verrà scritta e sigillata con ceralacca a forma di rosa — e sarete voi, in un certo senso, a deciderne il destinatario."
+      ],
+      "finale": true, "esito": "segreto"
+    }
+  }
+}

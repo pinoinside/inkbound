@@ -1,0 +1,342 @@
+{
+  "titolo": "Il Nome Sotto la Luna",
+  "sottotitolo": "Una notte a Pechino, nei panni di Liù",
+  "autore": "Inkbound — liberamente ispirato alla leggenda di Turandot",
+  "usa_statistiche": false,
+  "usa_inventario": false,
+  "statistiche_iniziali": {},
+  "inventario_iniziale": [],
+  "sezione_iniziale": "1",
+  "sezioni": {
+    "1": {
+      "testo": [
+        "Pechino, notte. Sopra le mura della Città Proibita la luna è un disco di giada appena velato di nubi, e la piazza sotto il palazzo imperiale trabocca di una folla che non sa decidersi tra la paura e la sete di spettacolo.",
+        "Al centro, il patibolo attende il Principe di Persia, l'ultimo a osare gli enigmi della Principessa Turandot, l'ultimo a perdere. Voi siete Liù, schiava fedele del vecchio re spodestato Timur, e vi stringete al suo braccio: lui è cieco da anni, e voi siete i suoi occhi in mezzo a questa notte affollata di ferocia."
+      ],
+      "scelte": [
+        { "testo": "Restate accanto a Timur, descrivendogli a bassa voce ciò che accade", "vai": "2" },
+        { "testo": "Distogliete lo sguardo, incapace di reggere la scena, e stringetegli soltanto la mano", "vai": "2" }
+      ]
+    },
+    "2": {
+      "testo": [
+        "Il boia Pu-Tin-Pao alza la lama; la folla trattiene il fiato, poi urla, poi tace di nuovo — un'onda che si ripete identica a ogni esecuzione, come se la crudeltà avesse imparato le buone maniere.",
+        "Voi distogliete lo sguardo, e per un istante, come vi accade spesso in mezzo all'orrore, pensate a un giovane sconosciuto incontrato per caso durante la fuga dal vostro regno perduto: uno sguardo, un sorriso rivolto a voi soltanto, nulla di più. Eppure è per quel nulla che ogni notte trovate la forza di restare al fianco di Timur, invece che scomparire nella folla e salvarvi da sole."
+      ],
+      "scelte": [
+        { "testo": "Scacciate il pensiero, non è il momento", "vai": "3" },
+        { "testo": "Lasciate che il ricordo resti un istante di più, come un tepore proibito", "vai": "3" }
+      ]
+    },
+    "3": {
+      "testo": [
+        "Un gong di bronzo rimbomba tra i tetti ricurvi, e la piazza intera si volta verso il balcone di giada del palazzo: Turandot si mostrerà, come sempre dopo ogni esecuzione, fredda e perfetta, a ricordare a tutti perché nessun uomo dovrebbe più osare chiedere la sua mano.",
+        "Dicono che discenda da una principessa di mille anni fa, oltraggiata e uccisa da un invasore straniero, e che Turandot vendichi ogni notte quell'antico dolore su chiunque abbia il coraggio — o la follia — di amarla."
+      ],
+      "scelte": [
+        { "testo": "Attendete, con Timur, che la principessa appaia", "vai": "4" },
+        { "testo": "Osservate la folla, più che il balcone, cercando di capire chi altro sia in pericolo stanotte", "vai": "4" }
+      ]
+    },
+    "4": {
+      "testo": [
+        "Nella ressa, una voce spezza la vostra attenzione: qualcuno grida «Padre!» con un tono che non è di quella folla, ma di casa, di un tempo perduto. È lui — il giovane sconosciuto dal sorriso — che si getta tra la gente fino a raggiungere Timur, stringendolo, incredulo di ritrovarlo vivo dopo l'esilio.",
+        "Riconoscerlo pubblicamente, qui, potrebbe significare la morte per entrambi: Timur è un re decaduto, e suo figlio un fuggiasco su cui pende più di una taglia."
+      ],
+      "scelte": [
+        { "testo": "Tiratelo per la manica, sussurrandogli di abbassare la voce", "vai": "5" },
+        { "testo": "Restate in disparte, facendo da vedetta contro sguardi indiscreti", "vai": "5" }
+      ]
+    },
+    "5": {
+      "testo": [
+        "Il giovane principe — che nella fuga avete imparato a chiamare semplicemente Calaf, senza mai pronunciare il nome vero del suo casato — vi chiede chi abbia protetto suo padre in tutti questi anni di miseria ed esilio.",
+        "«Una schiava fedele» rispondete, «che non ha mai avuto altro motivo se non questo: un giorno, prima che tutto andasse perduto, un principe mi ha sorriso, ed è bastato.» Calaf non coglie il sottinteso. Voi, dentro, sapete perfettamente a chi vi state riferendo."
+      ],
+      "scelte": [
+        { "testo": "Lasciate che il momento passi senza aggiungere altro", "vai": "6" },
+        { "testo": "Aggiungete, quasi sottovoce, che quel sorriso è stato il dono più grande mai ricevuto", "vai": "5b" }
+      ]
+    },
+    "5b": {
+      "testo": [
+        "Calaf vi guarda per un istante più a lungo del necessario, come se qualcosa nella vostra voce lo avesse sfiorato senza che lui sappia nominarlo. Ma un rullo di tamburi lontano richiama l'attenzione di tutta la piazza, e l'istante si dissolve prima ancora di potersi compiere."
+      ],
+      "scelte": [
+        { "testo": "Tornate a occuparvi di Timur, come sempre", "vai": "6" },
+        { "testo": "Trattenete quell'istante per voi, come un piccolo tesoro segreto", "vai": "6" }
+      ]
+    },
+    "6": {
+      "testo": [
+        "Il balcone si illumina: Turandot appare, immobile, avvolta in seta color della notte, il volto un'incognita di bellezza e di gelo. Un sospiro collettivo percorre la piazza — e voi vedete, con lo stomaco che si stringe, lo sguardo di Calaf perdersi in quella figura come una nave che smette di lottare contro la corrente.",
+        "Sapete già, prima ancora che lui lo dica, cosa sta per fare: sfidare gli enigmi, come tutti quelli che ora sono solo nomi scolpiti su lapidi."
+      ],
+      "scelte": [
+        { "testo": "Supplicatelo apertamente di rinunciare, prima che sia tardi", "vai": "7a" },
+        { "testo": "Restate in silenzio: non avete alcun diritto di trattenerlo", "vai": "7b" }
+      ]
+    },
+    "7a": {
+      "testo": [
+        "Vi gettate quasi ai suoi piedi, tra lo sconcerto di Timur: «Principe, ve ne scongiuro, non fatelo. Ho visto morire chi ha tentato prima di voi, ho visto la lama del boia lucida di un sangue che non si ferma mai.»",
+        "Calaf vi guarda con una tenerezza distratta, quella che si riserva a chi non si può amare come si vorrebbe. «Liù, buona Liù» dice soltanto, «tornate accanto a mio padre.» La sua decisione non vacilla di un passo."
+      ],
+      "scelte": [
+        { "testo": "Tornate in silenzio accanto a Timur, col cuore in frantumi", "vai": "8" },
+        { "testo": "Chinate il capo, sapendo che nessuna parola in più servirebbe ormai a qualcosa", "vai": "8" }
+      ]
+    },
+    "7b": {
+      "testo": [
+        "Non dite nulla. Chi siete voi per trattenere un principe dal suo destino, quando nemmeno osate dirgli che lo amate? Restate a guardarlo mentre si fa largo tra la folla, il volto acceso di una determinazione che assomiglia pericolosamente alla felicità.",
+        "Il vostro silenzio, pensate, è l'unico dono che potete ancora permettervi di fargli."
+      ],
+      "scelte": [
+        { "testo": "Seguitelo con lo sguardo fino al grande gong di bronzo", "vai": "8" },
+        { "testo": "Stringete la mano di Timur, per non dover reggere da sola quell'attesa", "vai": "8" }
+      ]
+    },
+    "8": {
+      "testo": [
+        "Calaf raggiunge il gong destinato ai pretendenti e lo percuote tre volte, il suono che si propaga sopra i tetti come un annuncio di morte già scritta. La folla insorge in un mormorio: un altro pazzo, un altro sciocco innamorato di un volto e di una leggenda.",
+        "Timur si aggrappa al vostro braccio, comprendendo dal tumulto ciò che i suoi occhi non possono più vedere. «Cos'ha fatto, Liù? Ditemi cos'ha fatto.» Non trovate il coraggio di rispondergli subito."
+      ],
+      "scelte": [
+        { "testo": "Ditegli, piano, che suo figlio ha appena sfidato Turandot", "vai": "9" },
+        { "testo": "Restate in silenzio un istante di troppo, prima di trovare le parole", "vai": "9" }
+      ]
+    },
+    "9": {
+      "testo": [
+        "Vi ritrovate escluse dalla sala del trono, dove solo i dignitari e l'Imperatore Altoum possono assistere ai tre enigmi. Restate fuori, tra i cortili di pietra, contando i rintocchi di un tamburo che scandisce ogni domanda posta e ogni risposta attesa.",
+        "Timur prega sottovoce, in una lingua antica che nessuno qui riconosce più. Voi pregate a modo vostro: restando semplicemente immobili, come se il minimo movimento potesse spezzare qualcosa di fragile e lontano."
+      ],
+      "scelte": [
+        { "testo": "Attendete il verdetto insieme a Timur, senza muovervi", "vai": "10" },
+        { "testo": "Ripetete dentro di voi il suo nome vero, come un talismano proibito", "vai": "10" }
+      ]
+    },
+    "10": {
+      "testo": [
+        "Un grido si alza dalla sala — non di dolore, ma di stupore. Poi un secondo. Poi un terzo, seguito da un silenzio che pesa più di qualunque urlo: Calaf ha risposto correttamente a tutti e tre gli enigmi. Speranza, Sangue, e infine Turandot stessa — il suo proprio nome, offerto come ultima soluzione a un indovinello impossibile.",
+        "Dalle porte socchiuse vedete Turandot alzarsi, pallida di un'ira che assomiglia a terrore: lei, che non ha mai perso, ora si trova a un passo dal dover mantenere la parola data — e sposare uno sconosciuto."
+      ],
+      "scelte": [
+        { "testo": "Osservate la scena, trattenendo il respiro", "vai": "11" },
+        { "testo": "Stringetevi a Timur, condividendo con lui sollievo e paura insieme", "vai": "11" }
+      ]
+    },
+    "11": {
+      "testo": [
+        "Turandot si getta ai piedi dell'Imperatore, suo padre, implorandolo di non costringerla a quel matrimonio come si costringe un animale al giogo. Altoum, stanco e dispiaciuto, le ricorda che un giuramento è un giuramento, anche per una principessa.",
+        "È allora che Calaf, in un gesto che vi lascia senza fiato per l'audacia e per la generosità che nasconde, offre a Turandot una via di scampo: se lei riuscirà a scoprire il suo vero nome entro l'alba, potrà farlo giustiziare. Se fallirà, dovrà essere sua sposa, non per costrizione, ma — spera lui — per amore."
+      ],
+      "scelte": [
+        { "testo": "Capite subito quanto sia pericolosa questa scommessa", "vai": "12" },
+        { "testo": "Sentite un brivido, comprendendo che questa notte potrebbe costare la vita a più di una persona", "vai": "12" }
+      ]
+    },
+    "12": {
+      "testo": [
+        "Prima che l'alba sorga, un editto percorre la città come fuoco su paglia secca: nessuno a Pechino dovrà dormire finché il nome dello straniero non sarà scoperto. Chi lo conosce e tace sarà punito; chi lo rivela sarà colmato d'oro.",
+        "Le strade si riempiono di torce, di soldati, di sussurri. Voi sapete il nome. Timur lo sa. E in una notte in cui nessuno può dormire, questo segreto pesa quanto una condanna già firmata."
+      ],
+      "scelte": [
+        { "testo": "Restate accanto a Timur, cercando un angolo buio dove aspettare l'alba", "vai": "13" },
+        { "testo": "Osservate le torce moltiplicarsi nelle strade, mentre la città intera veglia", "vai": "13" }
+      ]
+    },
+    "13": {
+      "testo": [
+        "Tre ministri dell'Imperatore — Ping, Pang e Pong — vi trovano rannicchiati contro un muro di pietra, in un vicolo lontano dalle luci principali. Sanno, o sospettano, che voi due eravate insieme allo straniero prima che sfidasse il gong.",
+        "Vi offrono, a bassa voce, ricchezze, salvacondotti, una vita nuova lontano da Pechino — tutto, in cambio di un solo nome sussurrato. Il vicolo alle vostre spalle porta, se non sbagliate, verso le mura esterne della città."
+      ],
+      "scelte": [
+        { "testo": "Rifiutate fermamente, e restate al fianco di Timur qualunque cosa accada", "vai": "14" },
+        { "testo": "Cogliete l'attimo di confusione per trascinare Timur lontano, verso le porte della città", "vai": "21" }
+      ]
+    },
+    "14": {
+      "testo": [
+        "Il vostro rifiuto è fermo, ma i tre ministri non sono gli unici occhi che vi hanno notati: alcune guardie, insospettite dal vostro comportamento nervoso e dalla presenza di un vecchio cieco tanto vicino allo straniero, si fanno largo nel vicolo.",
+        "Non c'è più spazio per la fuga. Vi afferrano entrambi senza troppe cerimonie."
+      ],
+      "scelte": [
+        { "testo": "Lasciatevi condurre, cercando di restare vicino a Timur", "vai": "15" },
+        { "testo": "Tentate un'ultima, disperata scusa per giustificare la vostra presenza qui", "vai": "14b" }
+      ]
+    },
+    "14b": {
+      "testo": [
+        "Le guardie non sembrano affatto interessate alle vostre spiegazioni: vi spingono ugualmente verso la piazza illuminata a giorno, Timur stretto al vostro fianco, le vostre parole disperse nel vento come inutili prima ancora di essere finite."
+      ],
+      "scelte": [
+        { "testo": "Proseguite in silenzio, verso la piazza", "vai": "15" },
+        { "testo": "Cercate lo sguardo di Timur, per rassicurarlo con un tocco della mano", "vai": "15" }
+      ]
+    },
+    "15": {
+      "testo": [
+        "Vi trovate, inaspettatamente in fretta, al cospetto di Turandot in persona: è scesa in piazza, avvolta in un mantello scuro, incapace di attendere l'alba nella quiete del palazzo. Il suo sguardo si posa su di voi con un'attenzione che non promette nulla di buono.",
+        "«Voi conoscete il suo nome» dice, non come domanda ma come sentenza già pronunciata. Timur, al vostro fianco, stringe la mascella e non dice nulla: sa che sarete voi, ora, a dover scegliere cosa fare di questo segreto."
+      ],
+      "scelte": [
+        { "testo": "Restate in silenzio, mentre Turandot attende una risposta", "vai": "16" },
+        { "testo": "Cercate, nel volto di Turandot, un'ombra di dubbio prima di rispondere", "vai": "16" }
+      ]
+    },
+    "16": {
+      "testo": [
+        "Al vostro silenzio, Turandot fa un cenno secco: le guardie afferrano Timur per interrogarlo con la forza. È il momento che temevate più della vostra stessa morte.",
+        "«Fermatevi!» gridate, gettandovi avanti. «Il vecchio non sa nulla. Sono io — sono soltanto io a conoscere il nome dello straniero.» Turandot vi osserva con una curiosità gelida, come si osserva un insetto che si è appena rivelato capace di parlare. Ordina che siate voi, ora, a essere messa alla prova."
+      ],
+      "scelte": [
+        { "testo": "Sopportate in silenzio, senza cedere di un passo", "vai": "17" },
+        { "testo": "Dichiarate che solo l'amore vi dà una forza che nessuna tortura può scalfire", "vai": "18" },
+        { "testo": "Sfidate Turandot a viso aperto, proclamando apertamente il vostro amore per lui", "vai": "19" },
+        { "testo": "Fingete di cedere, e sussurrate un nome falso alle guardie", "vai": "20" }
+      ]
+    },
+    "17": {
+      "testo": [
+        "Non pronunciate una parola. Le guardie stringono, minacciano, e voi vi chiudete in un silenzio che assomiglia a una stanza vuota: nessuno può entrarci, nemmeno il dolore. Turandot vi osserva con un fastidio crescente, come se la vostra resistenza fosse un affronto personale.",
+        "«Perché taci, schiava? Chi ti dà una forza simile?» chiede infine, quasi suo malgrado. È la domanda che aspettavate, e forse l'unica risposta che vi resta da dare."
+      ],
+      "scelte": [
+        { "testo": "Rispondete che è l'amore, un amore mai confessato, a darvi questa forza", "vai": "fine_sacrificio_silenzioso" },
+        { "testo": "Non rispondete affatto, e lasciate che sia il silenzio stesso a rispondere per voi", "vai": "fine_pietas_negata" }
+      ]
+    },
+    "18": {
+      "testo": [
+        "«Il segreto» dite, con una calma che vi sorprende per prima, «morirà con me, principessa, e con me soltanto. Il vecchio non sa nulla che io non gli abbia già portato via, insieme a tutto il resto che gli ho tolto la vita.»",
+        "Turandot inclina il capo, quasi affascinata da tanta ostinazione in un corpo così minuto. «Cosa ti lega a lui, per arrivare fino a questo?» Sentite che questa è l'ultima domanda a cui risponderete mai."
+      ],
+      "scelte": [
+        { "testo": "Confessate che è amore, taciuto per anni, e che nulla potrà strapparvelo", "vai": "fine_amore_rivelato" },
+        { "testo": "Non rispondete a lei: rivolgete invece a Timur un ultimo sguardo d'addio", "vai": "fine_addio_muto" }
+      ]
+    },
+    "19": {
+      "testo": [
+        "Qualcosa in voi si spezza, ma non nel modo in cui temevate: si spezza la paura, non il coraggio. Alzate il volto verso Turandot, davanti a soldati e cortigiani, pronta a parlare o a tacere, secondo ciò che il cuore, finalmente libero, deciderà di fare.",
+        "Turandot attende, con quella stessa curiosità gelida riservata a chi non si è mai piegato davanti a lei."
+      ],
+      "scelte": [
+        { "testo": "Dichiarate forte, perché tutta la piazza possa sentirvi, che amate quello straniero da sempre", "vai": "fine_sfida" },
+        { "testo": "Invece di dichiararvi, ridete apertamente in faccia a Turandot, sprezzante", "vai": "fine_derisione" }
+      ]
+    },
+    "20": {
+      "testo": [
+        "Dovete guadagnare tempo, in un modo o nell'altro. Le guardie vi stringono, Turandot attende, e ogni istante che passa è un istante che allontana l'alba — e con essa, forse, la salvezza di qualcuno."
+      ],
+      "scelte": [
+        { "testo": "Fingete di cedere, e sussurrate alle guardie un nome inventato lì per lì", "vai": "fine_inganno" },
+        { "testo": "Invece di un nome falso, fingete di svenire, lasciandovi cadere tra le braccia delle guardie", "vai": "fine_finta_debolezza" }
+      ]
+    },
+    "21": {
+      "testo": [
+        "Approfittando della confusione — un carro rovesciato, un gruppo di soldati distratto da un allarme lontano — trascinate Timur per un braccio lontano dal vicolo, lontano dai ministri, dentro il ventre buio della città insonne.",
+        "Ogni ombra potrebbe essere una guardia, ogni lanterna un occhio che vi riconosce. Timur non fa domande: si fida delle vostre mani, come ha sempre fatto da quando avete iniziato a guidarlo attraverso il mondo che lui non vede più."
+      ],
+      "scelte": [
+        { "testo": "Proseguite subito verso le mura esterne, senza fermarvi", "vai": "22" },
+        { "testo": "Fermatevi un istante, tendendo l'orecchio per capire se qualcuno vi insegue", "vai": "21b" }
+      ]
+    },
+    "21b": {
+      "testo": [
+        "Trattenete il respiro insieme a Timur, in ascolto. Solo il vento tra i tetti, solo il lontano brusio della città sveglia. Nessun passo di guardia, per ora."
+      ],
+      "scelte": [
+        { "testo": "Riprendete il cammino verso le mura, con cautela", "vai": "22" },
+        { "testo": "Affrettate il passo, non fidandovi di quella quiete", "vai": "22" }
+      ]
+    },
+    "22": {
+      "testo": [
+        "Le mura di Pechino si stagliano davanti a voi, enormi, scandite da torce di guardia a intervalli regolari. Da qualche parte alle vostre spalle, la città intera veglia per scoprire un nome che voi portate con voi come un tizzone acceso tra le mani.",
+        "Una porta laterale, di solito riservata ai mercanti, sembra sorvegliata con meno attenzione delle altre — ma anche il sentiero più lungo, lungo il canale che costeggia le mura, appare libero in questo momento."
+      ],
+      "scelte": [
+        { "testo": "Rischiate la porta laterale, più vicina ma sorvegliata", "vai": "23" },
+        { "testo": "Seguite il canale, più lungo ma apparentemente libero", "vai": "23" }
+      ]
+    },
+    "23": {
+      "testo": [
+        "Non sapete dire, in seguito, quale istante preciso vi abbia fatto varcare le mura: solo che a un certo punto le torce di Pechino sono alle vostre spalle, sempre più piccole, e davanti a voi si apre la campagna buia e silenziosa, indifferente a editti e a nomi da scoprire.",
+        "Timur cammina al vostro fianco, stanco ma vivo. Di Calaf, del suo destino, della sua scommessa con Turandot, non saprete più nulla — non questa notte, forse non mai. Vi resta solo la strada davanti, e un nome custodito che nessuno vi ha strappato."
+      ],
+      "finale": true,
+      "esito": "segreto"
+    },
+    "fine_sacrificio_silenzioso": {
+      "testo": [
+        "«È l'amore» dite infine, la voce che trema ma non si spezza. «Un amore mai chiesto, mai promesso, mai nemmeno confessato a lui. È questo che mi dà una forza che il vostro dolore non può toccare, principessa: perché voi potete spezzarmi il corpo, ma non potete strappare ciò che non ho mai osato dire ad alta voce.»",
+        "In un gesto che nessuno riesce a fermare in tempo, sfilate un pugnale dalla cintura della guardia più vicina e ve lo conficcate nel petto, cadendo sulle pietre della piazza prima che qualcuno possa impedirvelo. L'ultima cosa che vedete è il volto di Turandot, per la prima volta in tutta la notte, privo della sua consueta maschera di gelo."
+      ],
+      "finale": true,
+      "esito": "sconfitta"
+    },
+    "fine_pietas_negata": {
+      "testo": [
+        "Non rispondete. Restate semplicemente a guardarla, in un silenzio che non chiede più nulla — né pietà, né comprensione — e che proprio per questo pesa più di qualunque parola.",
+        "Il corpo cede prima della volontà: scivolate a terra senza un lamento, mentre Turandot resta immobile, incapace di decidere se ciò che prova sia irritazione o qualcosa di più simile, per la prima volta, a un rimorso senza nome."
+      ],
+      "finale": true,
+      "esito": "sconfitta"
+    },
+    "fine_amore_rivelato": {
+      "testo": [
+        "«Amore» ripetete, quasi sorpresa voi stessa di pronunciare finalmente quella parola. «Un amore che non ho mai avuto il diritto di dichiarare, e che ora nessuno, nemmeno voi, potrà mai portarmi via.»",
+        "Prima che le guardie possano trattenervi, vi togliete la vita con la lama strappata a uno di loro. Cadete ai piedi di Turandot, che resta immobile a fissarvi, il volto attraversato da qualcosa che assomiglia, per un solo istante, a un dubbio. Cosa resterà, in lei, di questo istante — se rimorso, se pietà, se nulla affatto — è una domanda che la notte si porta via insieme a voi, senza offrire risposta."
+      ],
+      "finale": true,
+      "esito": "segreto"
+    },
+    "fine_addio_muto": {
+      "testo": [
+        "Non rispondete a Turandot. Vi voltate invece verso Timur, e nel suo volto cieco cercate, per un ultimo istante, la casa che non avete mai più avuto. Nessuna parola d'amore pronunciata, nessuna confessione: solo quello sguardo, che lui non potrà vedere ma che forse, in qualche modo, sentirà.",
+        "Vi togliete la vita in silenzio, lasciando Timur senza una vera risposta al perché — solo con la certezza che qualcosa di prezioso, che non saprà mai nominare, se n'è andato insieme a voi."
+      ],
+      "finale": true,
+      "esito": "sconfitta"
+    },
+    "fine_sfida": {
+      "testo": [
+        "«Voi non sapete nulla dell'amore, principessa» dichiarate forte, perché tutta la piazza possa sentirvi, «altrimenti non lo temereste come si teme una spada. Io lo amo da quando ero poco più che una bambina in fuga, e non me ne vergogno davanti a voi né davanti a nessuno.»",
+        "Un silenzio attonito cala sulla piazza. Turandot vi fissa a lungo — non con l'ira che vi aspettavate, ma con qualcosa di più freddo e definitivo: la decisione di chi non sopporta di essere messa in discussione da chi considera meno di un'ombra. Ordina che siate giustiziata all'istante. Cadete con la schiena dritta, l'unica cosa che, in fondo, vi siete sempre potuta permettere di scegliere."
+      ],
+      "finale": true,
+      "esito": "sconfitta"
+    },
+    "fine_derisione": {
+      "testo": [
+        "Invece di implorare o di dichiararvi, scoppiate in una risata secca, quasi crudele, che risuona stranamente fuori luogo in mezzo a tanta solennità. «Una principessa che trema davanti all'amore di una schiava» dite, «è una principessa che ha già perso, qualunque nome scopra all'alba.»",
+        "Turandot non risponde con l'ira, ma con un gelo ancora più assoluto: vi fa giustiziare senza un'altra parola. Morite ridendo, o quasi, lasciando la piazza con il dubbio scomodo che, in fondo, l'ultima a ridere siate state voi."
+      ],
+      "finale": true,
+      "esito": "sconfitta"
+    },
+    "fine_inganno": {
+      "testo": [
+        "L'alba comincia a sbiadire il nero del cielo sopra i tetti di Pechino, e voi restate immobile, in attesa di scoprire se il nome falso abbia retto fino all'ultima ora della notte oppure se qualcuno, in qualche angolo della città, abbia già smascherato l'inganno.",
+        "Turandot viene chiamata altrove, verso il palazzo, prima di potervi dare una risposta definitiva. Le guardie vi lasciano sole con Timur, in un limbo che non è salvezza né condanna. Non saprete mai, di preciso, cosa sia accaduto dopo di voi in quella sala del trono — se il nome vero sia stato scoperto, se lo straniero abbia vinto o perso la sua scommessa. Restate lì, in attesa di un'alba che tarda a dirvi come finisce la storia."
+      ],
+      "finale": true,
+      "esito": "neutro"
+    },
+    "fine_finta_debolezza": {
+      "testo": [
+        "Il corpo cede prima ancora che ve lo aspettiate — o forse fingete così bene da ingannare persino voi stessa. Scivolate tra le braccia delle guardie, che vi sollevano confuse, incerte se portarvi da un medico o gettarvi comunque ai piedi di Turandot.",
+        "Nella confusione che segue, tra grida e ordini contrastanti, perdete i sensi per davvero, o forse fingete ancora: non saprete mai dirlo con certezza. Quando gli eventi della notte si saranno compiuti, in un modo o nell'altro, voi non ne avrete memoria diretta — solo il racconto di altri, sempre incompleto, sempre un poco diverso da chi lo narra."
+      ],
+      "finale": true,
+      "esito": "neutro"
+    }
+  }
+}
