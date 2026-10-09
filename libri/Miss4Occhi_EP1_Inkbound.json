@@ -1,0 +1,554 @@
+{
+  "titolo": "Miss4Occhi — Il primo segnale",
+  "sottotitolo": "Episodio 1 · Librogame · Tutti guardano. Pochi vedono.",
+  "autore": "Gionata Mascagni — Miss4Occhi",
+  "usa_statistiche": false,
+  "usa_inventario": false,
+  "statistiche_iniziali": {},
+  "inventario_iniziale": [],
+  "sezione_iniziale": "1",
+  "sezioni": {
+    "1": {
+      "testo": [
+        "Oggi sei Mia. Indossi la tua felpa viola e un paio di occhiali che ti ricordano di guardare con attenzione.",
+        "Questa è una versione a bivi di «Il primo segnale». Alcune scelte e le loro conseguenze sono state aggiunte per il librogame. Non ci sono punti: puoi esitare, chiedere e cambiare idea.",
+        "Leggi da solo oppure con la classe. Prima di scegliere, prova a spiegare perché."
+      ],
+      "scelte": [
+        {
+          "testo": "Entra nella storia",
+          "vai": "2"
+        }
+      ],
+      "finale": false
+    },
+    "2": {
+      "testo": [
+        "Qualche anno prima, alcuni bambini ti chiamavano: «Quattro occhi! Quattro occhi!»",
+        "«Se non li metto, forse smettono», avevi detto alla nonna.",
+        "La nonna aveva pulito i tuoi occhiali con un panno viola. «Gli occhiali ti aiutano a vedere. Ma per capire gli altri serve attenzione.»",
+        "«E se non so che cosa provano?»",
+        "«Non devi indovinare. Guarda, ascolta… e chiedi.»"
+      ],
+      "scelte": [
+        {
+          "testo": "Ricorda le parole della nonna",
+          "vai": "3"
+        }
+      ],
+      "finale": false
+    },
+    "3": {
+      "testo": [
+        "È mattina davanti all’IC QUA LUNQUE. Suona la campanella e raggiungi gli altri nel corridoio.",
+        "«Gara fino alle scale?» propone Noa. Poco dopo è già impegnato a spiegare a Tommy la sua ultima teoria.",
+        "«Io capisco subito chi piace a chi.»",
+        "«Tu ieri hai scambiato un mal di pancia per una dichiarazione d’amore.»",
+        "«Aveva lo sguardo tormentato.»",
+        "«Aveva mangiato tre merendine.»",
+        "A scuola c’è chi vede tutto. O almeno ne è convinto."
+      ],
+      "scelte": [
+        {
+          "testo": "Entra in aula",
+          "vai": "4"
+        }
+      ],
+      "finale": false
+    },
+    "4": {
+      "testo": [
+        "La porta si apre. Un ragazzo stringe la tracolla dello zaino e guarda la classe.",
+        "«Ragazzi, lui è Lio. Da oggi sarà in classe con noi», dice l’insegnante.",
+        "«Ciao.»",
+        "«Vuoi raccontarci che cosa ti piace fare?»",
+        "«Disegno. Soprattutto mappe e posti che non esistono.»",
+        "Noa commenta: «Tipo la mensa quando c’è qualcosa di buono?»",
+        "«Quello, in effetti, è un luogo leggendario», risponde l’insegnante.",
+        "La classe ride. Anche Lio."
+      ],
+      "scelte": [
+        {
+          "testo": "Segui Lio con lo sguardo",
+          "vai": "5"
+        }
+      ],
+      "finale": false
+    },
+    "5": {
+      "testo": [
+        "Lio si avvicina a una sedia accanto a Riky. «È libero?»",
+        "Riky appoggia lo zaino sulla sedia. «In realtà lo teniamo per… le emergenze.»",
+        "«Che emergenze?»",
+        "«Se arriva uno più simpatico di noi», interviene Noa.",
+        "Qualcuno ride. Lio si allontana e si siede in fondo. Eva abbassa gli occhi sul quaderno.",
+        "Tu hai visto la scena. Dove rivolgi l’attenzione?"
+      ],
+      "scelte": [
+        {
+          "testo": "Guardo Lio: sta ridendo anche lui?",
+          "vai": "6"
+        },
+        {
+          "testo": "Penso che sia uno scherzo e torno al quaderno",
+          "vai": "7"
+        }
+      ],
+      "finale": false
+    },
+    "6": {
+      "testo": [
+        "Lio non sta ridendo. Poco fa, alla battuta sulla mensa, rideva insieme agli altri.",
+        "«Loro ridono… lui no», pensi.",
+        "Non sai ancora che cosa prova. Ma la differenza fra le due risate ti resta in mente."
+      ],
+      "scelte": [
+        {
+          "testo": "Continua",
+          "vai": "8"
+        }
+      ],
+      "finale": false
+    },
+    "7": {
+      "testo": [
+        "Torni al quaderno: forse stavano scherzando.",
+        "Poi senti la sedia in fondo spostarsi. Alzi gli occhi: Lio è lì, mentre lo zaino occupa ancora il posto libero.",
+        "«Loro ridono… lui no.» Puoi accorgertene anche dopo un momento di esitazione."
+      ],
+      "scelte": [
+        {
+          "testo": "Continua a osservare",
+          "vai": "8"
+        }
+      ],
+      "finale": false
+    },
+    "8": {
+      "testo": [
+        "Tommy si accorge che stai guardando verso il fondo. Crede che tu stia guardando lui e si sistema i capelli nello schermo spento del tablet.",
+        "Penne e righello precipitano dal banco.",
+        "«Ti è caduto tutto», dici.",
+        "«Era… una prova di gravità.»",
+        "«Funziona.»"
+      ],
+      "scelte": [
+        {
+          "testo": "Ascolta la consegna",
+          "vai": "9"
+        }
+      ],
+      "finale": false
+    },
+    "9": {
+      "testo": [
+        "«Gruppi di tre!» annuncia l’insegnante. Il compito è inventare il titolo di una storia ambientata in una città immaginaria.",
+        "Riky, Noa e Tommy avvicinano i banchi.",
+        "«Posso lavorare con voi?» chiede Lio.",
+        "«Siamo già in tre.»",
+        "«Potremmo anche essere in quattro», suggerisce Tommy.",
+        "«Ha detto gruppi di tre», risponde Riky. Tommy guarda Lio, ma non insiste."
+      ],
+      "scelte": [
+        {
+          "testo": "Continua",
+          "vai": "10"
+        }
+      ],
+      "finale": false
+    },
+    "10": {
+      "testo": [
+        "Il foglio di Riky, Noa e Tommy è ancora bianco.",
+        "«La nostra città può chiamarsi “Idee”: nessuno di noi sa dove si trova», dice Noa.",
+        "Eva ride e Noa dà una gomitata a Tommy. «Ha riso.»",
+        "«Rideva della battuta.»",
+        "«È così che comincia.»",
+        "«Che cosa?»",
+        "«Non lo so, ma è cominciato.»",
+        "Lio è ancora fuori dai gruppi."
+      ],
+      "scelte": [
+        {
+          "testo": "Guarda cosa succede a Lio",
+          "vai": "11"
+        }
+      ],
+      "finale": false
+    },
+    "11": {
+      "testo": [
+        "L’insegnante si avvicina. «Non hai ancora trovato un gruppo?»",
+        "«Stava scegliendo», dice Riky.",
+        "«Sì. Stavo scegliendo», ripete Lio.",
+        "Ripensi alla sedia occupata e alla richiesta rimasta senza un invito. «Non è una cosa sola… sono tante piccole cose.»"
+      ],
+      "scelte": [
+        {
+          "testo": "Pulisci gli occhiali con il panno viola",
+          "vai": "12"
+        }
+      ],
+      "finale": false
+    },
+    "12": {
+      "testo": [
+        "Ti togli gli occhiali, li pulisci con il panno della nonna, respiri e li rimetti.",
+        "«Non devo immaginare quello che prova. Devo guardare meglio.»",
+        "Per un istante la classe ti appare come tante isole: i gruppi vicini fra loro, uno spazio vuoto intorno a Lio.",
+        "È un’immagine di ciò che stai notando, non una lettura dei suoi pensieri. Per sapere come sta, dovrai ascoltarlo."
+      ],
+      "scelte": [
+        {
+          "testo": "Aspetta l’intervallo",
+          "vai": "13"
+        }
+      ],
+      "finale": false
+    },
+    "13": {
+      "testo": [
+        "In cortile Riky, Noa e Tommy lanciano una pallina di carta verso un cestino. Eva li osserva.",
+        "«Questo tiro è per una persona speciale», annuncia Noa.",
+        "«Il bidello?» domanda Eva.",
+        "«Molto speciale», aggiunge Riky.",
+        "«Indimenticabile», conclude Tommy.",
+        "La pallina rimbalza e finisce nel cappuccio di Riky. Tu sorridi, poi noti Lio sotto un albero con il quaderno.",
+        "E se volesse stare da solo?"
+      ],
+      "scelte": [
+        {
+          "testo": "Mi avvicino e gli chiedo se posso sedermi",
+          "vai": "14"
+        },
+        {
+          "testo": "Chiedo prima a Eva se ha notato qualcosa",
+          "vai": "15"
+        },
+        {
+          "testo": "Aspetto un poco: non so cosa dire",
+          "vai": "16"
+        }
+      ],
+      "finale": false
+    },
+    "14": {
+      "testo": [
+        "Raggiungi Lio e ti fermi senza invadere il suo spazio.",
+        "«Posso sedermi qui?»",
+        "«Sì.»",
+        "Ti siedi, lasciandogli spazio. Il quaderno è aperto su una città disegnata a matita."
+      ],
+      "scelte": [
+        {
+          "testo": "Continua",
+          "vai": "18"
+        }
+      ],
+      "finale": false
+    },
+    "15": {
+      "testo": [
+        "«Hai visto Lio stamattina?» chiedi piano a Eva.",
+        "«Ho visto lo zaino sulla sedia», risponde. «Poi ho guardato il quaderno. Non sapevo cosa fare.»",
+        "Neppure voi sapete con certezza che cosa prova Lio. Parlarne fra voi non sostituisce chiederglielo.",
+        "Decidi di avvicinarti senza richiamare l’attenzione di tutto il cortile."
+      ],
+      "scelte": [
+        {
+          "testo": "Chiedi a Lio se puoi sederti",
+          "vai": "14"
+        }
+      ],
+      "finale": false
+    },
+    "16": {
+      "testo": [
+        "Rimani per un momento vicino agli altri. Cerchi una frase perfetta, ma non ti viene.",
+        "Lio continua a disegnare. Non alza la mano per chiamarti: questo, da solo, non ti dice se desideri compagnia.",
+        "Puoi iniziare con una domanda semplice. Oppure, se ti senti bloccata, puoi chiedere un consiglio a un adulto."
+      ],
+      "scelte": [
+        {
+          "testo": "Mi basta chiedere: «Posso sedermi qui?»",
+          "vai": "14"
+        },
+        {
+          "testo": "Chiedo un consiglio all’insegnante",
+          "vai": "17"
+        }
+      ],
+      "finale": false
+    },
+    "17": {
+      "testo": [
+        "Ti avvicini all’insegnante. «Lio ha chiesto un posto e poi un gruppo, ma è rimasto fuori. Vorrei parlargli, però non so come.»",
+        "«Puoi chiedergli se desidera compagnia», risponde. «E grazie per avermi raccontato quello che hai visto. Al rientro controlleremo insieme i gruppi.»",
+        "Non devi risolvere tutto da sola. Torni verso Lio."
+      ],
+      "scelte": [
+        {
+          "testo": "Chiedi il permesso di sederti",
+          "vai": "14"
+        }
+      ],
+      "finale": false
+    },
+    "18": {
+      "testo": [
+        "«Prima, per il gruppo… avresti voluto un invito?» chiedi.",
+        "«Sì», risponde Lio.",
+        "Hai una risposta da lui, non soltanto una tua impressione. Lio guarda il disegno e muove la matita fra le dita.",
+        "Come prosegui?"
+      ],
+      "scelte": [
+        {
+          "testo": "Gli lascio scegliere se parlare o mostrarmi la città",
+          "vai": "19"
+        },
+        {
+          "testo": "Gli faccio subito tante domande",
+          "vai": "20"
+        },
+        {
+          "testo": "Dico che ho capito esattamente come si sente",
+          "vai": "21"
+        }
+      ],
+      "finale": false
+    },
+    "19": {
+      "testo": [
+        "«Vuoi parlarne oppure mi racconti la tua città?»",
+        "«Della città, per ora.»",
+        "«Va bene.»",
+        "Lio gira un poco il quaderno verso di te. Accogliere una risposta significa anche rispettare ciò che non vuole raccontare."
+      ],
+      "scelte": [
+        {
+          "testo": "Guarda il disegno",
+          "vai": "22"
+        }
+      ],
+      "finale": false
+    },
+    "20": {
+      "testo": [
+        "«E nelle altre scuole? E perché non hai detto niente? E…»",
+        "Ti accorgi che stai facendo una domanda dopo l’altra. Lio stringe il quaderno. «Preferirei parlare della città.»",
+        "Ti fermi. «Scusa, ti ho fatto troppe domande. Mi racconti il disegno?»",
+        "Lio gira il quaderno verso di te. Puoi correggere il modo in cui ascolti."
+      ],
+      "scelte": [
+        {
+          "testo": "Guarda il disegno",
+          "vai": "22"
+        }
+      ],
+      "finale": false
+    },
+    "21": {
+      "testo": [
+        "«So esattamente come ti senti», dici, pensando a quando ti prendevano in giro per gli occhiali.",
+        "Poi ti fermi: la tua esperienza non è la sua.",
+        "«Anzi, non proprio. Se vuoi puoi raccontarmelo tu. Oppure possiamo parlare della città.»",
+        "«Della città, per ora.»",
+        "«Va bene.»"
+      ],
+      "scelte": [
+        {
+          "testo": "Guarda il disegno",
+          "vai": "22"
+        }
+      ],
+      "finale": false
+    },
+    "22": {
+      "testo": [
+        "Lio ti mostra strade, edifici e collegamenti fra diversi quartieri. Segui con gli occhi il percorso della sua matita.",
+        "Ti ricordi il compito della mattina. Quel disegno potrebbe diventare parte del lavoro.",
+        "Come gli proponi di partecipare?"
+      ],
+      "scelte": [
+        {
+          "testo": "Gli chiedo: «Ci dai una mano?»",
+          "vai": "23"
+        },
+        {
+          "testo": "Annuncio agli altri che Lio lavorerà con noi",
+          "vai": "24"
+        }
+      ],
+      "finale": false
+    },
+    "23": {
+      "testo": [
+        "«Ci dai una mano?» chiedi.",
+        "«Posso?»",
+        "«Certo.»",
+        "Gli proponi di cercare un titolo insieme e di chiedere all’insegnante come organizzare il gruppo. Lio accetta.",
+        "Non devi promettergli che andrà tutto perfettamente. Potete fare un passo alla volta."
+      ],
+      "scelte": [
+        {
+          "testo": "Cerca il titolo insieme a lui",
+          "vai": "25"
+        }
+      ],
+      "finale": false
+    },
+    "24": {
+      "testo": [
+        "Stai per chiamare gli altri: «Lio viene con…»",
+        "Lio ti guarda. Non glielo hai ancora chiesto.",
+        "Abbassi la voce. «Scusa: prima volevo chiedere a te. Ci dai una mano?»",
+        "«Posso?»",
+        "«Certo. Se ti va, troviamo un titolo e poi chiediamo all’insegnante come organizzarci.»",
+        "Lio annuisce. L’invito diventa una sua scelta."
+      ],
+      "scelte": [
+        {
+          "testo": "Cerca il titolo insieme a lui",
+          "vai": "25"
+        }
+      ],
+      "finale": false
+    },
+    "25": {
+      "testo": [
+        "Guardate la città. Per un momento nessuno dei due parla.",
+        "«Ponti invisibili», propone Lio.",
+        "«Questo è già meglio di tutte le nostre idee.»",
+        "Avete un disegno e un titolo da portare agli altri. È il momento di rientrare."
+      ],
+      "scelte": [
+        {
+          "testo": "Raggiungi il gruppo con Lio",
+          "vai": "26"
+        }
+      ],
+      "finale": false
+    },
+    "26": {
+      "testo": [
+        "«Lio ha disegnato la città», dici.",
+        "«È fortissima», commenta Tommy.",
+        "Riky guarda il foglio, poi la sedia con lo zaino. Per un momento nessuno si muove.",
+        "Che cosa fai?"
+      ],
+      "scelte": [
+        {
+          "testo": "Lascio spazio a Lio per presentare la sua idea",
+          "vai": "27"
+        },
+        {
+          "testo": "Propongo di sistemare il gruppo con l’insegnante",
+          "vai": "28"
+        }
+      ],
+      "finale": false
+    },
+    "27": {
+      "testo": [
+        "Ti fermi e lasci che sia Lio a mostrare il quaderno.",
+        "«Si chiama “Ponti invisibili”», dice.",
+        "Tommy si sposta per guardare meglio. Riky toglie lo zaino dalla sedia. «Puoi stare qui.»",
+        "«Grazie», risponde Lio.",
+        "Prima di continuare, chiedete all’insegnante di riorganizzare il gruppo: la consegna era di lavorare in tre."
+      ],
+      "scelte": [
+        {
+          "testo": "Riprendi il lavoro",
+          "vai": "29"
+        }
+      ],
+      "finale": false
+    },
+    "28": {
+      "testo": [
+        "«Possiamo chiedere alla prof come organizzarci?» proponi.",
+        "Spiegate la situazione e mostrate l’idea di Lio. L’insegnante vi aiuta a riorganizzare il lavoro e a distribuire i compiti.",
+        "Riky toglie lo zaino dalla sedia. «Puoi stare qui.»",
+        "«Grazie», risponde Lio.",
+        "Un adulto può aiutare a cambiare l’organizzazione. A voi resta il compito di fare davvero spazio."
+      ],
+      "scelte": [
+        {
+          "testo": "Riprendi il lavoro",
+          "vai": "29"
+        }
+      ],
+      "finale": false
+    },
+    "29": {
+      "testo": [
+        "L’insegnante concorda con voi come procedere. Il gruppo riprende il lavoro e Lio contribuisce con le sue idee.",
+        "Tu e Lio sistemate il disegno. Tommy vi osserva e sussurra a Noa: «Secondo te Mia ha una cotta per Lio?»",
+        "«Il mio radar dice di sì.»",
+        "Eva scuote la testa. «Il tuo radar pensava che io fossi innamorata di un cestino.»",
+        "«Era un segnale confuso.»",
+        "«Era una pallina di carta.»"
+      ],
+      "scelte": [
+        {
+          "testo": "Guarda il posto accanto a Lio",
+          "vai": "30"
+        }
+      ],
+      "finale": false
+    },
+    "30": {
+      "testo": [
+        "Lo zaino è a terra. Lio è seduto con gli altri.",
+        "Non è una promessa che da domani andrà tutto bene. È un piccolo cambiamento, e qualcuno dovrà continuare a farci attenzione.",
+        "Un posto lasciato vuoto può essere il primo segnale. Vederlo in tempo può cambiare ciò che succede dopo.",
+        "Prima di chiudere, pensa o discutine con la classe: che differenza c’era fra la risata sulla mensa e quella davanti alla sedia? Quando Mia ha chiesto, invece di indovinare? Quale piccolo gesto potresti fare tu?",
+        "Tutti guardano. Pochi vedono."
+      ],
+      "scelte": [],
+      "finale": true,
+      "esito": "neutro"
+    }
+  },
+  "note_redazionali": {
+    "versione": "1.0",
+    "data": "2026-10-09",
+    "tipo": "Adattamento testuale a bivi, non trascrizione canonica né revisione pedagogica certificata",
+    "fonti": [
+      {
+        "file": "Miss4Occhi_Episodio_1_Il_primo_segnale_revisione_pedagogica.pdf",
+        "versione": "2",
+        "uso": "Sceneggiatura e principi narrativi"
+      },
+      {
+        "file": "Miss4Occhi_EP01_Proiettabile_2D_Fumetto_81_Slide_REVISIONATO.pptx",
+        "versione": "1",
+        "uso": "Priorità ai dialoghi revisionati, B-story, finale"
+      }
+    ],
+    "aggiunte": "Scelte e conseguenze, raccordi in seconda persona, conversazione con Eva, consiglio dell’insegnante e riorganizzazione esplicita del gruppo sono aggiunte per il librogame.",
+    "immagini": "Non incluse; campo illustrazione omesso per evitare collegamenti mancanti o privati.",
+    "mappa_fonti": {
+      "2": "B01–B08",
+      "3": "Apertura e T01",
+      "4": "T02–T03",
+      "5": "T04–T05",
+      "8": "T06",
+      "9": "T07",
+      "10": "T08",
+      "11": "T09",
+      "12": "T10–T11",
+      "13": "T12–T13",
+      "14": "T14",
+      "18": "Adattamento T14",
+      "19": "Principi T15 della sceneggiatura",
+      "22": "T15",
+      "23": "T15 revisionata e T16",
+      "25": "T16",
+      "26": "T17",
+      "29": "T18",
+      "30": "T18 e domande originali"
+    },
+    "copyright": "© 2026 Miss4Occhi"
+  }
+}
